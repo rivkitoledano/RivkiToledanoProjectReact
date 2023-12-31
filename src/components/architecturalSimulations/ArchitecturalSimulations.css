@@ -1,0 +1,123 @@
+/* CSS for the fixed layout */
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 61vh;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: black;
+    padding: 20px;
+    margin-top: 1%;
+    border-radius: 6px;
+    margin-top: 1%;
+  }
+  
+  .sidebar a {
+    display: block;
+    margin-bottom: 10px;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .sidebar a:hover {
+    color: #fff;
+    background-color: yellow;
+  }
+  
+  .sidebar a div {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  .sidebar a:hover div {
+    background-color: yellow;
+    color: #fff;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .business-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  .business-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .business-name {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px 3px yellow;
+    margin-bottom: 10px;
+    position: relative;
+  }
+ 
+  .business-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .business-address,
+  .business-phone,
+  .business-owner {
+    color: #000000;
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+  .business-logo {
+    width: 100%;
+    
+  }
+  
+  /* CSS for the SingleService */
+  .singleservicediv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 2px rgba(0, 0, 0, 0.1);
+    color: black;
+    background-color: rgba(255, 254, 254, 0.412);
+    width: 80%;
+    margin-top: 0%;
+  }
+  
+  .singleservicediv > div {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .singleservicediv > div:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Add any additional CSS styles here */
+  .css-sghohy-MuiButtonBase-root-MuiButton-root{
+    background-color:white  !important; 
+    color:black !important;
+
+   }
+  .css-sghohy-MuiButtonBase-root-MuiButton-root:hover{background-color: yellow !important ;color: white !important; }

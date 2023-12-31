@@ -1,0 +1,53 @@
+
+body {
+    direction: rtl;
+    z-index: -1;
+
+}
+
+ .singleservicediv>div {
+    margin-bottom: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.singleservicediv>div:last-child {
+    margin-bottom: 0;
+} 
+
+
+.details {
+    position: absolute;
+    width: 50%;
+z-index: 1;
+}
+
+.oneimage {
+    
+    width: 100%;
+    opacity: 30%;
+    position: relative ;
+
+}
+.image{
+     
+}
+.singleservicediv {
+    width: 50%;
+    height: 110%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+.addmeet{
+    margin-top: 5%;
+}
+.name{
+    
+}
