@@ -74,7 +74,6 @@ class BusinessServices {
       businessServicesList: observable,
       isLogin: observable,
       business: observable,
-
       addService: action,
       setIsLogin: action,
       initialService: action,
